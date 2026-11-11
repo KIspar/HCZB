@@ -2,9 +2,9 @@
 
 浅色版安装与使用指南，包含53秒空间动画、六章图文和扩展下载。
 
-在线指南：https://kispar.github.io/live-helper-guide/
+在线指南：https://kispar.github.io/HCZB/
 
-离线指南：https://github.com/KIspar/live-helper-guide/releases/tag/guide-v1.10.1
+离线指南：https://github.com/KIspar/HCZB/releases/tag/guide-v1.10.1
 
 GitHub Pages 从 main 分支根目录部署。第三方组件和依赖许可见 THIRD-PARTY-LICENSES.txt。
 
