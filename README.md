@@ -1,2 +1,9 @@
-# live-helper-guide
-直播辅助工具 · 员工安装与使用指南
+# 直播辅助工具 · 员工使用指南
+
+浅色版安装与使用指南，包含53秒空间动画、六章图文和扩展下载。
+
+GitHub Pages：从 main 分支根目录部署。离线指南从 Releases 下载。
+
+第三方组件和依赖许可见 THIRD-PARTY-LICENSES.txt。
+
+发布文件不含 Excel、任务 JSON、API Key、浏览器存储或本地历史素材。
