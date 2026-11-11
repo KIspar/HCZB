@@ -1,0 +1,836 @@
+{
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "bpm": 120,
+  "beatFrames": 30,
+  "durationFrames": 3180,
+  "shots": [
+    {
+      "id": "pain",
+      "title": "先把操作理顺",
+      "short": "3 秒看懂问题",
+      "from": 0,
+      "end": 180,
+      "heading": [
+        "资料、任务、直播进度，",
+        "怎么接起来？"
+      ],
+      "caption": "不用来回找，把操作变成一条清楚的路径。"
+    },
+    {
+      "id": "flow",
+      "title": "看懂工作流程",
+      "short": "四个环节，一条路径",
+      "from": 180,
+      "end": 540,
+      "heading": [
+        "先准备任务，",
+        "再跟随现场进度。"
+      ],
+      "caption": "上传资料，自动分析，按企业编排，再安排执行。"
+    },
+    {
+      "id": "compare",
+      "title": "选择准备方式",
+      "short": "新资料 / 现成任务",
+      "from": 540,
+      "end": 900,
+      "heading": [
+        "有新资料，生成。",
+        "有完整任务，复用。"
+      ],
+      "caption": "两条路径都保存在本地，完整任务可导出交接。"
+    },
+    {
+      "id": "install",
+      "title": "安装与打开",
+      "short": "四格并行 → 融合工作台",
+      "from": 900,
+      "end": 1020,
+      "heading": [
+        "四个安装动作，",
+        "压缩成一次启动。"
+      ],
+      "caption": "安装过程为压缩示意，实际操作请按下方图文步骤完成。"
+    },
+    {
+      "id": "json",
+      "title": "导入 JSON",
+      "short": "更多 → 导入任务",
+      "from": 1020,
+      "end": 1380,
+      "heading": [
+        "同事编好的任务，",
+        "拿过来就能用。"
+      ],
+      "caption": "导入后，当前任务与企业节点一起更新。"
+    },
+    {
+      "id": "excel",
+      "title": "从 Excel 新建",
+      "short": "设置场次，上传生成",
+      "from": 1380,
+      "end": 1860,
+      "heading": [
+        "新资料，",
+        "从 Excel 开始。"
+      ],
+      "caption": "保存 Key 后设置场次，上传资料即可生成并保存。"
+    },
+    {
+      "id": "case",
+      "title": "安排一场直播",
+      "short": "60 分钟 · 300 位用户",
+      "from": 1860,
+      "end": 2340,
+      "heading": [
+        "提前准备好，",
+        "到点按计划执行。"
+      ],
+      "caption": "示例场次；预约期间保持浏览器与目标页面运行。"
+    },
+    {
+      "id": "control",
+      "title": "现场调整",
+      "short": "跟随主播切换企业",
+      "from": 2340,
+      "end": 2820,
+      "heading": [
+        "主播讲到哪家，",
+        "就切到哪家。"
+      ],
+      "caption": "前序未处理内容会跳过，已处理内容不重复发送。"
+    },
+    {
+      "id": "outro",
+      "title": "记住这一句",
+      "short": "准备任务，跟上进度",
+      "from": 2820,
+      "end": 3180,
+      "heading": [
+        "提前备好任务，",
+        "现场跟上进度。"
+      ],
+      "caption": "完整安装步骤与下载入口，都在网页里。"
+    }
+  ],
+  "events": [
+    {
+      "frame": 60,
+      "type": "tick"
+    },
+    {
+      "frame": 150,
+      "type": "success"
+    },
+    {
+      "frame": 180,
+      "type": "transition"
+    },
+    {
+      "frame": 258,
+      "type": "laser"
+    },
+    {
+      "frame": 318,
+      "type": "laser"
+    },
+    {
+      "frame": 378,
+      "type": "laser"
+    },
+    {
+      "frame": 480,
+      "type": "success"
+    },
+    {
+      "frame": 540,
+      "type": "transition"
+    },
+    {
+      "frame": 840,
+      "type": "success"
+    },
+    {
+      "frame": 900,
+      "type": "transition"
+    },
+    {
+      "frame": 930,
+      "type": "matrix-check"
+    },
+    {
+      "frame": 930,
+      "type": "success"
+    },
+    {
+      "frame": 960,
+      "type": "merge"
+    },
+    {
+      "frame": 990,
+      "type": "success"
+    },
+    {
+      "frame": 1020,
+      "type": "transition"
+    },
+    {
+      "frame": 1080,
+      "type": "click"
+    },
+    {
+      "frame": 1200,
+      "type": "click"
+    },
+    {
+      "frame": 1260,
+      "type": "success"
+    },
+    {
+      "frame": 1380,
+      "type": "transition"
+    },
+    {
+      "frame": 1440,
+      "type": "click"
+    },
+    {
+      "frame": 1560,
+      "type": "click"
+    },
+    {
+      "frame": 1680,
+      "type": "click"
+    },
+    {
+      "frame": 1770,
+      "type": "burst",
+      "value": 45
+    },
+    {
+      "frame": 1772,
+      "type": "burst",
+      "value": 88
+    },
+    {
+      "frame": 1800,
+      "type": "burst",
+      "value": 100
+    },
+    {
+      "frame": 1800,
+      "type": "success"
+    },
+    {
+      "frame": 1860,
+      "type": "transition"
+    },
+    {
+      "frame": 2220,
+      "type": "click"
+    },
+    {
+      "frame": 2220,
+      "type": "success"
+    },
+    {
+      "frame": 2340,
+      "type": "transition"
+    },
+    {
+      "frame": 2430,
+      "type": "click"
+    },
+    {
+      "frame": 2550,
+      "type": "click"
+    },
+    {
+      "frame": 2550,
+      "type": "success"
+    },
+    {
+      "frame": 2620,
+      "type": "click"
+    },
+    {
+      "frame": 2730,
+      "type": "click"
+    },
+    {
+      "frame": 2790,
+      "type": "success"
+    },
+    {
+      "frame": 2820,
+      "type": "transition"
+    },
+    {
+      "frame": 2910,
+      "type": "success"
+    },
+    {
+      "frame": 3060,
+      "type": "success"
+    }
+  ],
+  "kicks": [
+    {
+      "frame": 0,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 30,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 60,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 90,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 120,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 150,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 180,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 210,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 240,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 270,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 300,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 330,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 360,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 390,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 420,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 450,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 480,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 510,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 540,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 570,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 600,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 630,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 660,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 690,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 720,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 750,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 780,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 810,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 840,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 870,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 900,
+      "strength": 1.8,
+      "matrixImpact": true
+    },
+    {
+      "frame": 930,
+      "strength": 1.8,
+      "matrixImpact": true
+    },
+    {
+      "frame": 960,
+      "strength": 1.8,
+      "matrixImpact": true
+    },
+    {
+      "frame": 990,
+      "strength": 1.8,
+      "matrixImpact": true
+    },
+    {
+      "frame": 1020,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1050,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1080,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1110,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1140,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1170,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1200,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1230,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1260,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1290,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1320,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1350,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1380,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1410,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1440,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1470,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1500,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1530,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1560,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1590,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1620,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1650,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1680,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1710,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1740,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1770,
+      "strength": 1.8,
+      "matrixImpact": true
+    },
+    {
+      "frame": 1800,
+      "strength": 1.8,
+      "matrixImpact": true
+    },
+    {
+      "frame": 1830,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1860,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1890,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1920,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1950,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 1980,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2010,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2040,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2070,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2100,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2130,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2160,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2190,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2220,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2250,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2280,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2310,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2340,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2370,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2400,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2430,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2460,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2490,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2520,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2550,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2580,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2610,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2640,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2670,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2700,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2730,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2760,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2790,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2820,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2850,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2880,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2910,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2940,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 2970,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 3000,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 3030,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 3060,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 3090,
+      "strength": 0.47,
+      "matrixImpact": false
+    },
+    {
+      "frame": 3120,
+      "strength": 1,
+      "matrixImpact": false
+    },
+    {
+      "frame": 3150,
+      "strength": 0.47,
+      "matrixImpact": false
+    }
+  ],
+  "motion": {
+    "flightFrames": 24,
+    "flightAttackFrames": 18,
+    "cardFrames": 24,
+    "buttonFrames": 18,
+    "successSeconds": 0.19
+  },
+  "audioSpec": {
+    "sampleRate": 48000,
+    "successSeconds": 0.19
+  },
+  "burstMilestones": [
+    {
+      "frame": 1770,
+      "value": 45
+    },
+    {
+      "frame": 1772,
+      "value": 88
+    },
+    {
+      "frame": 1800,
+      "value": 100
+    }
+  ]
+}
