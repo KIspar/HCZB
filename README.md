@@ -4,7 +4,7 @@
 
 在线指南：https://kispar.github.io/HCZB/
 
-离线指南：https://github.com/KIspar/HCZB/releases/tag/guide-v1.10.1
+离线指南：https://github.com/KIspar/HCZB/releases/tag/guide-v1.10.2
 
 GitHub Pages 从 main 分支根目录部署。第三方组件和依赖许可见 THIRD-PARTY-LICENSES.txt。
 
